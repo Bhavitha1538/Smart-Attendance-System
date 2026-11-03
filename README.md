@@ -1,56 +1,38 @@
-# 🎓 Smart Attendance System
+# Smart Attendance System
 
-## 📌 Project Description
-The Smart Attendance System is a Python-based college mini project designed to manage student attendance easily and efficiently.
+A beginner-friendly Python college mini project for managing student attendance.
 
-It helps teachers add student details, mark attendance, view student records, and generate attendance reports.
+## Features
+- Add students with roll number, name, and department.
+- Mark attendance as Present or Absent.
+- Save attendance by date.
+- Update a student's attendance for the same date.
+- View the day's attendance status.
+- Export the selected day's report as a CSV file.
+- Store data locally in an SQLite database (`attendance.db`).
 
-## 🎯 Objectives
-- Reduce manual attendance work.
-- Maintain student attendance records.
-- Make attendance management simple.
-- Generate attendance reports.
+## Technology
+- Python 3
+- Tkinter (desktop graphical interface)
+- SQLite (built into Python)
 
-## 🚀 Features
-1. Add Student Details
-2. View Student Records
-3. Mark Present or Absent
-4. Store Attendance by Date
-5. Generate Attendance Reports
-6. Export Reports as CSV Files
-
-## 🛠️ Technologies Used
-- Python
-- Tkinter
-- SQLite Database
-
-## 📂 Project Structure
-```text
-Smart-Attendance-System/
-├── main.py
-├── README.md
-└── requirements.txt
-```
-
-## ▶️ How to Run
+## How to run
 1. Install Python 3.
-2. Download the project.
-3. Open the project folder.
-4. Run the following command:
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run:
 
-```bash
-python main.py
-```
+   ```bash
+   python main.py
+   ```
 
-## 💡 Future Enhancements
-- Bluetooth attendance verification.
-- AI-based verification.
-- Student login system.
-- Teacher admin dashboard.
-- Attendance percentage calculation.
+Tkinter and SQLite are included with most standard Python installations. On some Linux systems, Tkinter may need to be installed separately.
 
-## 👨‍🎓 Project Type
-College Mini Project
+## Project note
+This is a working prototype of the attendance-recording and teacher/admin workflow described in the grant proposal. Bluetooth classroom verification, cryptographic hardware, face/liveness checks, AI review, push notifications, and the campus AI lab are **not implemented** in this starter version. Those would require separate hardware, services, testing, and privacy/security review.
 
-## 📄 License
-This project is created for educational purposes.
+## Suggested future improvements
+- Add student attendance percentage across a date range.
+- Add teacher/admin login.
+- Add a class-wise report.
+- Add a web or Android interface.
